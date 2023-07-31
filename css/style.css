@@ -538,7 +538,7 @@ textarea:focus {
   }
   .card {
     width: auto;
-    height: 35vh;
+    height: 37vh;
     margin: 2.1em auto 0 auto;
   }
 
@@ -547,7 +547,7 @@ textarea:focus {
   }
 
   .container03 {
-    height: 300vh;
+    height: 304vh;
   }
   .logo {
     font-size: 0.7em;
@@ -558,7 +558,7 @@ textarea:focus {
   }
 
   .card__description {
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
 
   .card__title {
@@ -579,6 +579,11 @@ textarea:focus {
   }
   #name {
     margin: 1em 0 1em;
+  }
+
+  .btn {
+    font-size: 0.7em;
+    width: 61%;
   }
 }
 
@@ -639,10 +644,6 @@ textarea:focus {
     margin: 2.1em auto 0 auto;
   }
 
-  .card img {
-    width: 62vw;
-  }
-
   .container02 {
     height: 77vh;
   }
@@ -677,6 +678,9 @@ textarea:focus {
   }
   #name {
     margin: 1em 0 1em;
+  }
+  .mobile-menu div {
+    width: 8vw;
   }
 }
 
@@ -734,18 +738,18 @@ textarea:focus {
   .card {
     width: auto;
     height: 32vh;
-    margin: 2.1em auto 0 auto;
+    margin: -0.9em auto 0 auto;
   }
 
   .card__title {
-    font-size: 1em;
+    font-size: 0.7em;
   }
   .card img {
-    width: 62vw;
+    width: auto;
   }
 
   .container03 {
-    height: 127vh;
+    height: 92vh;
   }
   .logo {
     font-size: 0.7em;
@@ -756,7 +760,7 @@ textarea:focus {
   }
 
   .card__description {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .container04 {
@@ -800,9 +804,9 @@ textarea:focus {
   }
 
   .title {
-    margin-top: 15em;
+    margin-top: 8em;
     margin-left: -1em;
-    font-size: 1em;
+    font-size: 1.9em;
     width: auto;
     letter-spacing: 1px;
     line-height: 2em;
@@ -811,7 +815,7 @@ textarea:focus {
   .txt {
     margin-left: -1em;
     margin-top: 1em;
-    font-size: 1.2em;
+    font-size: 1.4em;
     width: auto;
   }
 
@@ -823,7 +827,7 @@ textarea:focus {
   }
 
   .text {
-    font-size: 1em;
+    font-size: 1.5em;
     width: auto;
     margin-left: 1em;
   }
@@ -833,22 +837,23 @@ textarea:focus {
   }
 
   .section-cards {
-    display: flex;
-    flex-direction: column;
-    margin: 3em auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 11em auto;
+    gap: 1em;
   }
   .card {
-    width: 88vw;
+    width: auto;
     height: 35vh;
     margin: 2.1em auto 0 auto;
   }
 
   .card img {
-    width: 62vw;
+    width: 22vw;
   }
 
   .container03 {
-    height: 300vh;
+    height: 112vh;
   }
   .logo {
     font-size: 0.7em;
@@ -878,6 +883,10 @@ textarea:focus {
   #name {
     margin: 1em 0 1em;
   }
+
+  .texto-informativo {
+    padding: 6em;
+  }
 }
 
 @media (min-width: 1201px) and (max-width: 1500px) {
@@ -886,7 +895,7 @@ textarea:focus {
     display: block;
   }
   .image-bg-banner1 {
-    margin-left: 51.5em;
+    margin-left: 51.6em;
     top: -0.8em;
   }
 
